@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang ="it">
+    <head>
+        <title></title>
+        <style></style>
+
+        <!-- Link -->
+            <!-- link file base -->
+            <link rel="icon" href="assets/img/pageIcon.png">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+            <!-- link file esterni -->
+            <link rel="stylesheet" href="style.css">
+
+            <!--DEVICE viewport-->
+            <meta name= "viewport" content= "width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <footer>
+            <section class="menu center">
+                <ul>
+                    <li id="w" class="trigger_window" data-target="#menu-windows"><img src="w11.png" alt=""></li> 
+                    
+                    <li id="vs" class="trigger_window" data-target="#vsc"><img src="VSC.png" alt=""></li>
+                    
+                    <li id="bn" class="trigger_window" data-target="#blocco-note"><img src="bloccoNote.png" alt=""></li> 
+                    
+                    <li id="ol" class="trigger_window" data-target="#outlook"><img src="Microsoft_Outlook.png" alt=""></li>
+                </ul>
+            </section>
+        </footer>
+
+
+        <div id="vsc" class="window" style="top: 50px; left: 50px; width: 50%; height: 50%;">
+            <div class="window-header">
+                <span class="center"><img src="VSC.png" alt=""> VSCode - Conoscenze</span>
+                <div class="window-controls">
+                    <button class="close-btn" title="Chiudi">X</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <p>Questo è il contenuto del Browser.</p>
+                <p>L'ho impostata come finestra attiva inizialmente.</p>
+            </div>
+        </div>
+
+        <div id="bn" class="window" style="top: 15vh; left: 5vw; width: 20%; height: 20%;">
+            <div class="window-header">
+                <span class="center"><img src="bloccoNote.png" alt=""> Blocco Note - Descrizione</span>
+                <div class="window-controls">
+                    <button class="close-btn" title="Chiudi">X</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <p>Questo è il contenuto del Browser.</p>
+                <p>L'ho impostata come finestra attiva inizialmente.</p>
+            </div>
+        </div>
+
+        <div id="blocco-note" class="window" style="top: 10vh; left: 60vw;">
+            <div class="window-header">
+                <span class="center"><img src="Microsoft_Outlook.png" alt="">Outloock - Contattami</span>
+                <div class="window-controls">
+                    <button class="close-btn" title="Chiudi">X</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <form action="" class="center">
+                    <label for="name">Nome</label>
+                    <input type="text">
+
+                    <label for="mail">Mail</label>
+                    <input type="mail">
+                    
+                    <label for="message">Messaggio</label>
+                    <textarea name="message" id="message"></textarea>
+                </form>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
