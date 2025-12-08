@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div id="bn" class="window" style="top: 15vh; left: 5vw; width: 20%; height: 20%;">
+        <div id="blocco-note" class="window" style="top: 15vh; left: 5vw; width: 20%; height: 20%;">
             <div class="window-header">
                 <span class="center"><img src="bloccoNote.png" alt=""> Blocco Note - Descrizione</span>
                 <div class="window-controls">
@@ -53,12 +53,17 @@
                 </div>
             </div>
             <div class="window-content">
-                <p>Questo è il contenuto del Browser.</p>
-                <p>L'ho impostata come finestra attiva inizialmente.</p>
+                <h1>Descrizione</h1>
+                <p>
+                    💻 Matteo è uno studente tecnico informatico di Piove di Sacco(PD) con una passione per la programmazione e il design di siti web.
+                    Ha iniziato a programmare all' età di 15 anni, appen ainiziati gli studi tecnici, e da allora ha continuato a migliorare le sue competenze e imparare nuove tecnologie.
+                    Nel corso degli anni, ha lavorato su diversi progetti, sia personali che per aziende e artisti emergenti, creando siti web funzionali e accattivanti.
+                    Matteo è sempre alla ricerca di nuove sfide e opportunità per mighliorare le sue abilità in questo campo. 🚀
+                </p>
             </div>
         </div>
 
-        <div id="blocco-note" class="window" style="top: 10vh; left: 60vw;">
+        <div id="outlook" class="window" style="top: 10vh; left: 60vw; ">
             <div class="window-header">
                 <span class="center"><img src="Microsoft_Outlook.png" alt="">Outloock - Contattami</span>
                 <div class="window-controls">
@@ -66,12 +71,15 @@
                 </div>
             </div>
             <div class="window-content">
-                <form action="" class="center">
+                <form action="" class="center" id="contattami">
                     <label for="name">Nome</label>
-                    <input type="text">
+                    <input id="name" type="text">
 
                     <label for="mail">Mail</label>
-                    <input type="mail">
+                    <input id="mail" type="mail">
+
+                    <label for="subject">Oggetto</label>
+                    <input id="subject" type="subject">
                     
                     <label for="message">Messaggio</label>
                     <textarea name="message" id="message"></textarea>
