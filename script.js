@@ -27,7 +27,6 @@ function setFocus() {
         w.classList.remove('active');
     });
 
-    maxZIndex++;
     currentWindow.style.zIndex = maxZIndex;
     currentWindow.classList.add('active');
 }
